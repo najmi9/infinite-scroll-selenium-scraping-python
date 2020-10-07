@@ -1,12 +1,11 @@
 from time import sleep
 import pickle
-#from pyvirtualdisplay import Display
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import random
 import csv
-username = "imadnajmi"
-password = "Imad.1999"
+username = "username"
+password = "password"
 login_url = "https://account.ycombinator.com/?continue=https%3A%2F%2Fwww.startupschool.org%2Fusers%2Fsign_in"
 main_url = "https://www.startupschool.org/directory"
 
@@ -103,10 +102,6 @@ def main():
 
 	print('do job ....')
 	do_job(driver)
-		
-
 	
-
-	
-main()
-
+if __name__ == '__main__':
+	main()
